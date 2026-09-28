@@ -6,41 +6,41 @@
 // ──────────────────────────────────────────────────────────────────────────
 
 export const profile = {
-  name: 'Satyam Sharma',
-  nameJP: 'サティヤム', // katakana accent
-  role: 'Machine Learning Researcher',
-  location: 'Tokyo, Japan',
+  name: 'Akmal Mahammad',
+  nameJP: 'أكمل', // katakana accent
+  role: 'Full Stack Webdeveloper',
+  location: 'Andhra Pradesh, India',
   tagline:
-    "I'm working on how to make reinforcement learning learn efficiently in sparse- or delayed-reward environments without depending on constant, expensive LLM supervision.",
+    "I'm working on how to build fast, smooth websites that handle huge traffic without needing expensive server upgrades.",
   // longer intro shown in the About section
   bio: [
-    "I'm an ML researcher and MEXT (Monbukagakusho) scholar at the Institute of Science Tokyo (formerly Tokyo Institute of Technology). I finished my research-student phase and I'm now pursuing my Master's, focusing on Reinforcement learning and LLM.",
-    'Before Tokyo, I earned my B.E. with Honours in Computer Science at SLIET, I worked on Machine learning, Deep learning and NLP. I care about turning research into things that actually work.',
-    'Off the screen you\'ll find me chasing mountains, snow, and a good anime arc.',
+    "I'm a frontend developer and tech enthusiast based in Andhra Pradesh, working on high-performance web engineering. I've completed my initial training phase and I'm now building advanced web applications, focusing on React architectures and serverless backends."
+,
+    'Before moving into web development, I earned my B.E. with Honours in Computer Science at VIT-AP UNIVERSITY, where I built my foundation in software engineering, databases, and algorithms. I care about turning complex code into seamless websites that actually work for users.',
   ],
   // Profile photo — drop your image at public/images/profile.jpg (or update the path)
   photo: '/images/profile.jpg',
   // Resume (opens in a new tab from the hero)
-  resumeUrl: 'https://drive.google.com/file/d/18E4u765XPIlP8s-7Kfm2MkfAf-bRgJ--/view?usp=sharing',
+  resumeUrl: 'https://drive.google.com/file/d/1N4krlEQ9RaUBlXP5QviDr7SOirzMT8PA/view?usp=drive_link',
 }
 
 export const social = {
-  email: 'satyamsharma3002@gmail.com',
-  phone: '+91 7700076418',
-  github: 'https://github.com/monkeydcoder',
-  linkedin: 'https://www.linkedin.com/in/satyam-sharma-24463522a',
+  email: 'akmalmahammadoneplus@gmail.com',
+  phone: '+91 9392270395',
+  github: 'https://github.com/account',
+  linkedin: 'https://www.linkedin.com/in/meghavathu-dharma-nayak-314132345?utm_source=share_via&utm_content=profile&utm_medium=member_android',
 }
 
 export const quickFacts = [
-  { label: 'Based in', value: 'Tokyo, Japan', jp: '東京' },
-  { label: 'Scholarship', value: 'MEXT (Govt. of Japan)', jp: '文部科学省' },
-  { label: 'Focus', value: 'Reinforcement learning · LLM', jp: '研究' },
-  { label: 'Currently', value: "Master's @ Science Tokyo", jp: '修士' },
+  { label: 'Based in', value: 'Andhra Pradesh, India', jp: '東京' },
+  { label: 'Scholarship', value: 'PMSS Govt of India', jp: '文部科学省' },
+  { label: 'Focus', value: 'Frontend Architecture · Full-Stack Development', jp: '研究' },
+  { label: 'Currently', value: "Freelancer at Andhra Pradesh", jp: '修士' },
 ]
 
 export const skills = [
   {
-    category: 'Machine Learning & AI',
+    category: 'Web Development & AI',
     items: ['Machine Learning', 'Deep Learning', 'Computer Vision', 'NLP', 'TensorFlow', 'Keras', 'MLflow'],
   },
   {
@@ -64,49 +64,31 @@ export const skills = [
 // `link` = source code (GitHub), `demo` = video walkthrough (Loom).
 export const projects = [
   {
-    title: 'ExamPrepAI',
-    subtitle: 'AI study platform',
+    title: 'ExamPrep',
+    subtitle: 'Study platform',
     description:
-      'An AI-powered exam-prep platform that generates quizzes, flashcards, and personalised study plans, with progress tracking and adaptive learning for every student.',
-    tech: ['Python', 'NLP', 'React', 'AI'],
-    link: 'https://github.com/monkeydcoder/ExamPrepAI',
-    demo: 'https://www.loom.com/share/e604337fc4cf4cd2932a9fc64e80a56c?asg_reaction=true&reaction=wave&video_time_stamp=9',
+      'Tracking and adaptive learning for every student.',
+    tech: ['html', 'Java', 'React', 'AI'],
+    link: '-',
+    demo: '-',
     accent: 'purple',
   },
   {
-    title: 'ResearchMate-AI',
-    subtitle: 'Academic research assistant',
+    title: 'ResearchMate',
+    subtitle: 'Academic research',
     description:
-      'A research copilot for searching papers and patents, analysing PDFs, mapping literature, and managing citations — built to make the research grind a lot less painful.',
-    tech: ['Python', 'FastAPI', 'LangChain', 'Streamlit'],
-    link: 'https://github.com/monkeydcoder/researchmate-ai',
-    demo: 'https://www.loom.com/share/f0cf23e5e03546e5875df76d9d26199b?asg_reaction=true&reaction=wave&video_time_stamp=10',
-    accent: 'cyan',
-  },
-  {
-    title: 'Autonomous Farm Bot',
-    subtitle: "Earth Docker's · ₹50,000 funded",
-    description:
-      'A field robot that detects cotton-plant disease and navigates autonomously. Achieved 98% accuracy classifying diseased vs. healthy cotton with ResNet152V2, with on-board navigation via Raspberry Pi 4 + RP-Lidar and a rocker-bogie chassis for rough terrain.',
-    tech: ['Python', 'TensorFlow', 'Computer Vision', 'Raspberry Pi', 'Robotics'],
-    link: '',
-    accent: 'magenta',
-  },
-  {
-    title: 'Image-to-Mass Prediction',
-    subtitle: 'Deep learning · research',
-    description:
-      'Predicts the physical mass of an object straight from an image by learning density and volume cues from the MINS-2500 dataset — improving on existing state-of-the-art baselines.',
-    tech: ['Python', 'Deep Learning', 'Computer Vision', 'TensorFlow'],
-    link: '',
+      'A research copilot for searching papers and patents',
+    tech: ['Java', 'FastAPI', 'JavaScript', 'Three.js'],
+    link: '-',
+    demo: '-',
     accent: 'cyan',
   },
 ]
 
 export const education = [
   {
-    school: 'Institute of Science Tokyo',
-    note: 'formerly Tokyo Institute of Technology',
+    school: 'Institute of Science Andhra Pradesh',
+    note: 'formerly Andhra Pradesh Institute of Technology',
     degree: "Master's Program — Computer Science",
     period: '2026 – Present',
     detail:
@@ -124,7 +106,7 @@ export const education = [
 
 export const coursework = [
   'Data Structures & Algorithms',
-  'Machine Learning',
+  'Web Development',
   'Artificial Intelligence',
   'DBMS',
   'Computer Networks',
@@ -139,48 +121,48 @@ export const coursework = [
 
 export const anime = [
   {
-    title: 'One Piece',
-    jp: 'ワンピース',
+    title: 'Death Note',
+    jp: 'مذكرة الموت',
     note: 'The grand adventure. Freedom, nakama, and never giving up on the dream.',
   },
   {
     title: 'Attack on Titan',
-    jp: '進撃の巨人',
+    jp: 'هجوم العمالقة',
     note: 'Plot, payoff, and the most ruthless storytelling in anime.',
   },
   {
-    title: 'Naruto',
-    jp: 'ナルト',
+    title: 'Your Name',
+    jp: 'اسمك',
     note: 'Hard work beats talent — the show that started it all for me.',
   },
 ]
 
 export const hobbies = [
-  { name: 'Skiing', emoji: '⛷️' },
-  { name: 'Hiking', emoji: '🥾' },
-  { name: 'Swimming', emoji: '🏊' },
+  { name: 'Reading Sacred Books', emoji: '📖' },
+  { name: 'Home Workouts', emoji: '🏠🤸' },
+  { name: 'Meditation', emoji: '🧘' },
   { name: 'Walking', emoji: '🚶' },
 ]
 
 // Drop your own photos at public/images/travel/<file> to replace the placeholders.
 export const travel = [
   {
-    place: 'Rupin Pass Trek',
-    region: 'Himachal Pradesh, India',
+    place: 'Hyderabad',
+    region: 'Telangana, India',
     jp: '雪山',
     note: 'A high-altitude Himalayan crossing — snow fields, waterfalls, and ridgelines. Easily my favourite trek.',
     image: '/images/travel/rupin-pass.jpg',
   },
   {
-    place: 'Tokyo',
-    region: 'Japan',
-    jp: '東京',
+    place: 'Andhra Pradesh',
+    region: 'India',
+    jp: 'أندرا براديش',
     note: 'Home base. Endless neighbourhoods to wander, from neon Shibuya to quiet shrine backstreets.',
     image: '/images/travel/tokyo.jpg',
   },
   {
-    place: 'Kawagoe',
-    region: 'Saitama, Japan',
+    place: 'Chennai',
+    region: 'Tamil Nadu, India',
     jp: '川越',
     note: '"Little Edo" — old warehouse streets and that timeless retro style. Loved every corner of it.',
     image: '/images/travel/kawagoe.jpg',
@@ -190,10 +172,10 @@ export const travel = [
 // Section labels with decorative Japanese accents
 export const sections = [
   { id: 'home', label: 'Home', jp: 'ホーム' },
-  { id: 'about', label: 'About', jp: '私について' },
+  { id: 'about', label: 'About', jp: 'عني' },
   { id: 'skills', label: 'Skills', jp: 'スキル' },
-  { id: 'work', label: 'Work', jp: '仕事' },
+  { id: 'work', label: 'Work', jp: 'عمل' },
   { id: 'education', label: 'Education', jp: '学歴' },
-  { id: 'beyond', label: 'Beyond Code', jp: 'コード以外' },
+  { id: 'beyond', label: 'Beyond Code', jp: 'خارج نطاق البرمجة' },
   { id: 'contact', label: 'Contact', jp: '連絡' },
 ]

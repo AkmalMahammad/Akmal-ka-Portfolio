@@ -1,4 +1,4 @@
-# Satyam Sharma — Portfolio (Anime Village)
+# Akmal Mahammad — Portfolio (Anime Village)
 
 > **This was done just for fun to see Three.js in use.** A weekend experiment to
 > Explore what's possible with 3D on the web, and it turned into something cool.

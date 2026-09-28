@@ -68,7 +68,7 @@ export default function Overlay() {
           <div className="relative z-10">
             <span className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-black/40 px-4 py-1.5 text-sm text-amber-100 backdrop-blur-md">
               <span className="h-2 w-2 rounded-full bg-amber-300 shadow-[0_0_10px_3px_rgba(255,200,120,0.7)]" />
-              Available for research & collaboration
+              Available for creating professional websites
             </span>
             <p className="mt-7 font-jp text-base tracking-[0.4em] text-amber-200/90 text-readable">
               {profile.nameJP}
@@ -100,7 +100,7 @@ export default function Overlay() {
               )}
             </div>
             <p className="mt-12 flex flex-col items-center gap-1 text-xs uppercase tracking-[0.3em] text-white/90 text-readable">
-              <span>Scroll to wander · 探索</span>
+              <span>Scroll to Experience · استكشاف</span>
               <FiArrowDown className="animate-bounce text-lg text-amber-200" />
             </p>
           </div>
@@ -110,19 +110,19 @@ export default function Overlay() {
       {/* ── About ────────────────────────────────────────── */}
       <Section id="about" place="left">
         <div className="card max-w-lg lg:max-w-2xl">
-          <Kicker jp="私について" en="About" />
+          <Kicker jp="عني" en="About" />
           <h2 className="mb-4 font-display text-3xl font-bold text-white sm:text-4xl">
-            A researcher far <Grad>from home</Grad>
+            A Webdeveloper far <Grad>from home</Grad>
           </h2>
           {profile.bio.slice(0, 2).map((p, i) => (
             <p key={i} className="mb-3 text-sm leading-relaxed text-white/80 lg:text-[15px]">{p}</p>
           ))}
           <div className="mt-5 grid grid-cols-2 gap-3">
             {[
-              ['Based in', 'Tokyo, Japan'],
-              ['Scholarship', 'MEXT · Govt. of Japan'],
-              ['Focus', 'Reinforcement learning · LLM'],
-              ['Currently', "Master's @ Science Tokyo"],
+              ['Based in', 'Andhra Pradesh, India'],
+              ['Scholarship', 'PMSS · Govt. of India'],
+              ['Focus', 'Frontend Architecture · Full-Stack Development'],
+              ['Currently', "Freelancing"],
             ].map(([k, v]) => (
               <div key={k} className="rounded-lg border border-white/10 bg-black/30 px-3 py-2">
                 <p className="text-[10px] uppercase tracking-wider text-amber-200/80">{k}</p>
@@ -136,7 +136,7 @@ export default function Overlay() {
       {/* ── Selected Work ────────────────────────────────── */}
       <Section id="work" place="left">
         <div className="w-full max-w-3xl lg:max-w-5xl">
-          <Kicker jp="仕事" en="Selected Work" />
+          <Kicker jp="عمل" en="Selected Work" />
           <h2 className="mb-6 font-display text-3xl font-bold text-white text-readable sm:text-4xl lg:text-5xl">
             Things I've <Grad>built</Grad>
           </h2>
@@ -186,13 +186,13 @@ export default function Overlay() {
       {/* ── Beyond Code ──────────────────────────────────── */}
       <Section id="beyond" place="right">
         <div className="w-full max-w-2xl lg:max-w-3xl">
-          <Kicker jp="コード以外" en="Beyond Code" />
+          <Kicker jp="خارج نطاق البرمجة" en="Beyond Code" />
           <h2 className="mb-6 font-display text-3xl font-bold text-white text-readable sm:text-4xl lg:text-5xl">
             When the screen <Grad>switches off</Grad>
           </h2>
 
           <div className="card mb-4">
-            <p className="mb-2 font-jp text-sm text-pink-200/90">アニメ · Anime I love</p>
+            <p className="mb-2 font-jp text-sm text-pink-200/90">أنمي · I love Anime</p>
             <div className="flex flex-wrap gap-2">
               {anime.map((a) => (
                 <span key={a.title} className="chip-warm">
@@ -203,7 +203,7 @@ export default function Overlay() {
           </div>
 
           <div className="card mb-4">
-            <p className="mb-2 font-jp text-sm text-amber-200/90">趣味 · In motion</p>
+            <p className="mb-2 font-jp text-sm text-amber-200/90">هواياتي · In motion</p>
             <div className="flex flex-wrap gap-2">
               {hobbies.map((h) => (
                 <span key={h.name} className="chip-warm">{h.emoji} {h.name}</span>
@@ -212,7 +212,7 @@ export default function Overlay() {
           </div>
 
           <div className="card">
-            <p className="mb-2 font-jp text-sm text-amber-200/90">旅 · Places I've wandered</p>
+            <p className="mb-2 font-jp text-sm text-amber-200/90">رحلاتي  · Places I've wandered</p>
             <ul className="space-y-1.5 text-sm text-white/80 lg:text-[15px]">
               {travel.map((t) => (
                 <li key={t.place}>
@@ -224,8 +224,8 @@ export default function Overlay() {
           </div>
 
           <p className="mt-4 text-xs text-white/60 text-readable">
-            <span className="font-jp text-amber-200/80">学歴</span> · Currently a
-            Master's student at {education[0].school} (MEXT scholar).
+            <span className="font-jp text-amber-200/80">التعليم</span> · Currently a
+            Freelancer in Andhra Pradesh.
           </p>
         </div>
       </Section>
@@ -233,12 +233,12 @@ export default function Overlay() {
       {/* ── Contact ──────────────────────────────────────── */}
       <Section id="contact" place="center">
         <div className="card max-w-xl text-center lg:max-w-2xl">
-          <Kicker jp="連絡" en="Let's talk" />
+          <Kicker jp="اتصل بي" en="Let's talk" />
           <h2 className="font-display text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
             Drop me a <Grad>message</Grad>
           </h2>
           <p className="mx-auto mt-3 max-w-md text-white/75 lg:text-lg">
-            Research, a project, or just to talk anime and mountains — my inbox is open.
+            Projects, tech, or anime — my inbox is open.
           </p>
           <div className="mt-7 flex flex-col items-center justify-center gap-3 sm:flex-row sm:flex-wrap">
             <a href={`mailto:${social.email}`} className="btn-glow">
@@ -257,7 +257,7 @@ export default function Overlay() {
             </a>
           </div>
           <p className="mt-10 text-xs text-white/50">
-            © {new Date().getFullYear()} {profile.name} · サティヤム — built with React, Three.js & a quiet dusk in Tokyo.
+            © {new Date().getFullYear()} {profile.name} · أكمل محمد — built with React, Three.js & a quiet dusk in Andhra Pradesh.
           </p>
         </div>
       </Section>

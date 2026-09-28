@@ -26,12 +26,12 @@ export default function Loader() {
 
   return (
     <div className={`village-loader ${done ? 'village-loader--done' : ''}`}>
-      <div className="village-loader__lantern">提灯</div>
+      <div className="village-loader__lantern">𝓐𝓴𝓶𝓪𝓵 𝓜𝓪𝓱𝓪𝓶𝓶𝓪𝓭</div>
       <p className="village-loader__title">Entering the village</p>
       <div className="village-loader__bar">
         <span style={{ width: `${Math.min(100, Math.max(progress, minTimePassed ? 100 : progress))}%` }} />
       </div>
-      <p className="village-loader__hint">日が暮れる — dusk is falling</p>
+      <p className="village-loader__hint">The Sun Sets</p>
     </div>
   )
 }
